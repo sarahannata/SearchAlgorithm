@@ -123,7 +123,16 @@ namespace SearchAlgorithm
                             Console.WriteLine("...............");
                             MyList.input();
                             MyList.LinearSearch();
-                            break
+                            break;
+                        case 2:
+                            Console.WriteLine("");
+                            Console.WriteLine("...............");
+                            Console.WriteLine("Linear Search");
+                            Console.WriteLine("...............");
+                            MyList.input();
+                            MyList.LinearSearch();
+                            break;
+                        
                     }
                 }
             }
