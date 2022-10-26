@@ -61,7 +61,7 @@ namespace SearchAlgorithm
                     ctr++;
                 }
                 if (item == arr[mid])
-                    Console.WriteLine("\n" + item.ToString() + "found at position" + (mid + 1).ToString());
+                    Console.WriteLine("\n" + item.ToString() + " found at position " + (mid + 1).ToString());
                 else
                     Console.WriteLine("\n" + item.ToString() + "not found in the array\n");
                 Console.WriteLine("\nNumber of comparison : " + ctr);
@@ -73,7 +73,12 @@ namespace SearchAlgorithm
         public void LinearSearch()
         {
             char ch;
+            //search for number of comparison
+            int ctr;
+            do
+            {
 
+            }
         }
     }
 }
