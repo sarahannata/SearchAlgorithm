@@ -132,6 +132,9 @@ namespace SearchAlgorithm
                             MyList.input();
                             MyList.LinearSearch();
                             break;
+                        case 3:
+                            Console.WriteLine("exit.");
+                            break;
                         
                     }
                 }
