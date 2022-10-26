@@ -114,7 +114,7 @@ namespace SearchAlgorithm
                     Console.WriteLine("3. Exit");
                     Console.Write("Enter your choice (1,2,3) : ");
                     pilihanmenu = Convert.ToInt32(Console.ReadLine());
-                    switch(pilihanmenu)
+                    switch (pilihanmenu)
                     {
                         case 1:
                             Console.WriteLine("");
@@ -139,7 +139,15 @@ namespace SearchAlgorithm
                             Console.WriteLine("Error");
                             break;
                     }
-                }
+                    Console.WriteLine("\nPilih Menu Lagi? (y/n) : ");
+                    ch = char.Parse(Console.ReadLine().ToLower());
+                    Console.Clear();
+                } while (ch == 'y');
+
+                //to exit from the console
+                Console.WriteLine("\n\nPress Return to exit. ");
+                Console.ReadLine();
+                }while (pilihanmenu != 3);
             }
         }
     }
