@@ -23,6 +23,17 @@ namespace SearchAlgorithm
                 else
                     Console.WriteLine("\nArray should have minimum 1 and maximum 20 element. \n");
             }
+            //Accept array elements
+            Console.WriteLine("");
+            Console.WriteLine("-------------------");
+            Console.WriteLine("Enter array element");
+            Console.WriteLine("-------------------");
+            for (i = 0; i < n; i++)
+            {
+                Console.Write(">"+(i+1)+">");
+                string s1 = Console.ReadLine();
+                arr[i] = Int32.Parse(s1);
+            }
         }
     }
 }
