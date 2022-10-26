@@ -67,7 +67,7 @@ namespace SearchAlgorithm
                 Console.WriteLine("\nNumber of comparison : " + ctr);
 
                 Console.Write("\nContinue Search (y/n): ");
-                ch = char.Parse(Console.ReadLine().ToUpper();
+                ch = char.Parse(Console.ReadLine().ToUpper());
             } while ((ch == 'y'));
         }
         public void LinearSearch()
@@ -96,7 +96,13 @@ namespace SearchAlgorithm
                 Console.WriteLine("\n Number of comparison : " + ctr);
                 Console.Write("\nContinue search (y/n): ");
                 ch = char.Parse(Console.ReadLine().ToUpper());
-            }
+            } while ((ch = 'y'));
+        }
+        static void Main(string[] args)
+        {
+            Program MyList = new Program();
+            int pilihanmenu;
+            char ch;
         }
     }
 }
